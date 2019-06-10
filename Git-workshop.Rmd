@@ -1,0 +1,12 @@
+---
+title: "Git-workshop"
+author: "Camille Couture"
+date: '2019-06-10'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+print("Hello Git")
+```
+
+
