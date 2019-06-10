@@ -9,8 +9,8 @@ output: html_document
 my.name <- readline(prompt="Enter name: ")
 print(paste("Hello,", my.name))
 
-readline(prompt="How are you doing my.name: ")
-print(past("Great" if answer="Good"))
+mood = readline(prompt = "How are you doing?: ")
+ if (mood== "Good") print("Great")
 ```
 
 
