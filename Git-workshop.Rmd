@@ -7,6 +7,11 @@ output: html_document
 
 ```{r setup, include=FALSE}
 print("Hello Git, the World and my boss!")
+my.name <- readline(prompt="Enter name: ")
+print(paste("Hello,", my.name))
+
+mood = readline(prompt = "How are you doing?: ")
+ if (mood== "Good") print("Great")
 ```
 
 
