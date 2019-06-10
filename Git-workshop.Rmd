@@ -6,7 +6,8 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-print("Hello Git and the World")
+my.name <- readline(prompt="Enter name: ")
+print(paste("Hello,", my.name"))
 ```
 
 
