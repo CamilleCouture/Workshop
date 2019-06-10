@@ -8,6 +8,9 @@ output: html_document
 ```{r setup, include=FALSE}
 my.name <- readline(prompt="Enter name: ")
 print(paste("Hello,", my.name))
+
+readline(prompt="How are you doing my.name: ")
+print(past("Great" if answer="Good"))
 ```
 
 
