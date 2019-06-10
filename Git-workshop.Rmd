@@ -7,7 +7,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 my.name <- readline(prompt="Enter name: ")
-print(paste("Hello,", my.name"))
+print(paste("Hello,", my.name))
 ```
 
 
